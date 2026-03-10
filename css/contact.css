@@ -1,4 +1,4 @@
-p----------12
+p----------13
 
 /* CONTACT PAGE */
 
@@ -17,17 +17,20 @@ text-align:center;
 .contact-intro{
 margin-bottom:50px;
   align-items:center;
+  text-align:center;
 }
 
 .contact-intro h1{
 font-size:28px;
 margin-bottom:10px;
   align-items:center;
+  text-align:center;
 }
 
 .contact-intro p{
 color:#555;
 line-height:1.6;
+  text-align:center;
   align-items:center;
 }
 
@@ -91,6 +94,7 @@ margin-bottom:18px;
 .contact-card h3{
 margin:6px 0;
 font-size:20px;
+  
 }
 
 .contact-card p{
@@ -125,18 +129,21 @@ color:#ffffff;
 /* LOCATION */
 
 .location{
-margin-top:20px
-  align-items:center;;
+margin-top:20px;
+  align-items:center;
+  text-align:center;
 }
 
 .location h2{
 margin-bottom:8px;
 font-size:24px;
+  text-align:center;
   align-items:center;
 }
 
 .location p{
 color:#555;
+  text-align:center;
   align-items:center;
 font-size:17px;
 }
@@ -180,4 +187,5 @@ margin-top:35px;
 }
 
 }
+
 
