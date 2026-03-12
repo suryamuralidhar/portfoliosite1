@@ -1,32 +1,57 @@
-//Rev4
+//Rev5
 
+// ==============================
+// 360 Viewer Configuration
+// ==============================
 
 const CONFIG = {
 
-title: "Villa Interior – Living Room",
+    // ==========================
+    // PROJECT INFORMATION
+    // ==========================
 
-heading: "Living Room – Villa Interior",
+    title: "Villa Interior – Living Room",
 
-panoramaImage: "images/1.png",
+    heading: "Living Room – Villa Interior",
 
-popupText: `
-<b>Disclaimer</b><br><br>
-You are viewing this on a mobile device,
-please rotate your phone to <b>Landscape</b>
-and use <b>Fullscreen</b> for the best experience.
-`,
+    // Panorama image location
+    // Path is relative to 360.html
+    panoramaImage: "images/1.png",
 
-popupButton: "OK 😃",
 
-mobileWidth: 900,
+    // ==========================
+    // MOBILE POPUP MESSAGE
+    // ==========================
 
-popupDelay: 1000,
+    popupText: `
+    <b>Disclaimer</b><br><br>
+    You are viewing this on a mobile device.<br>
+    Please rotate your phone to <b>Landscape</b><br>
+    and use <b>Fullscreen</b> for the best experience.
+    `,
 
-dragFriction: 0.5
+    popupButton: "OK 😃",
+
+
+    // ==========================
+    // MOBILE SETTINGS
+    // ==========================
+
+    // Screen width under this = mobile popup
+    mobileWidth: 900,
+
+    // Delay before popup appears (milliseconds)
+    popupDelay: 1000,
+
+
+    // ==========================
+    // VIEWER SETTINGS
+    // ==========================
+
+    // Drag smoothness
+    dragFriction: 0.5
 
 };
-
-
 
 
 
