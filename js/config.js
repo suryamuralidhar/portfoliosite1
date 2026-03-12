@@ -7,7 +7,7 @@ title: "Villa Interior – Living Room",
 
 heading: "Living Room – Villa Interior",
 
-panoramaImage: "1.png",
+panoramaImage: "images/Liv.jpg",
 
 popupText: `
 <b>Disclaimer</b><br><br>
@@ -25,5 +25,6 @@ popupDelay: 1000,
 dragFriction: 0.5
 
 };
+
 
 
